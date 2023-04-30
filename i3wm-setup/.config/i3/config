@@ -4,3 +4,9 @@ bar {
         position top
         status_command i3status
 }
+
+# Set bind for lock and set the lockscreen wallpaper
+bindsym $mod+Shift+x exec --no-startup-id i3lock -t -i ~/Pictures/i3lock/lock-wallpaper.png
+
+# Auto exec feh to set the wallpaper
+exec --no-startup-id feh --no-fehbg --bg-fill '/home/bread/Pictures/i3/wallpaper-3.jpg'
