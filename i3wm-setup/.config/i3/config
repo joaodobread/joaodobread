@@ -1,0 +1,6 @@
+# set the i3wm bar to top
+
+bar {
+        position top
+        status_command i3status
+}
